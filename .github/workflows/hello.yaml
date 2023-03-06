@@ -1,0 +1,7 @@
+name: Hello World! # This is name of the workflow
+on: # This is used to manage the workflow triggering
+ push:
+ branches:
+ - master
+jobs: # This is the code that will be executed when workflow triggers
+ hello_world_job: # Name of the Job
