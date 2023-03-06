@@ -5,7 +5,7 @@ on: # This is used to manage the workflow triggering
  - master
 jobs: # This is the code that will be executed when workflow triggers
  hello_world_job: # Name of the Job
-runs-on: ubuntu-20.04 # The GitHub runner will use Ubuntu 20.04 as OS
+runs-on: [ubuntu-20.04] # The GitHub runner will use Ubuntu 20.04 as OS
  steps:
  - name: Say hello
  run: echo "Hello World!"
